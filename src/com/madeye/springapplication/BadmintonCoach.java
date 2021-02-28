@@ -20,5 +20,14 @@ public class BadmintonCoach implements Coach{
 		// TODO Auto-generated method stub
 		return fortuneService.getFortune();
 	}
-
+	
+	// add an init method
+	public void doMyStartupStaff() {
+		System.out.println("BadmintonCoach: inside method startup");
+	}
+	
+	// add a destroy method
+	public void doMyCleanUpStuff() {
+		System.out.println("BadmintonCoach: inside method cleaning");
+	}
 }
